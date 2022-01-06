@@ -37,9 +37,7 @@
                         </thead>
                         <tbody>
                             <?php
-                                foreach($all_user as $user){?>
-
-                               
+                                foreach($all_user as $user){?>    
                             <tr>
                             <td><?php echo $user["id"]?></td>
                             <td><?php echo $user["name"]?></td>
